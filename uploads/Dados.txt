@@ -1,0 +1,25 @@
+AP Aruba SN: CNMXK9T5D1
+
+vcardu@2509
+Scd@2525#
+
+PFsense
+Serra 192.168.10.1
+Linhares 
+Itarana 192.168.1.100/
+Microtick 10.10.10.1
+
+Servidores
+
+Serra 192.168.10.10
+Itarana 192.168.1.10
+P. Azul 10.10.10.10
+Linhares/Caratinha 10.15.238.21
+
+TPLink 
+Serra 192.168.100.1
+Itarana
+Linhares
+
+S. Linx
+10.15.138.11

@@ -1,0 +1,188 @@
+/* Estrutura geral */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f7f7f7;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #1e3a8a;
+  padding: 4px 10px;
+  flex-wrap: wrap;
+  color: white;
+}
+
+.nav-bar ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-bar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.menu-search {
+  flex: 1;
+  text-align: center;
+}
+
+.menu-search input[type="text"] {
+  padding: 9px;
+  font-size: 16px;
+  width: 290px;
+  border: 1px solid #ccc;
+  border-radius: 60px;
+}
+
+.logo {
+  height: 50px;
+}
+
+main {
+  padding: 20px;
+}
+
+/* Contador de resultados */
+.search-result-count {
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+/* Realce de busca */
+.highlight {
+  background-color: yellow;
+}
+
+/* Cards de manuais */
+.manual {
+  background: white;
+  padding: 12px 16px;
+  margin-bottom: 12px;
+  border-left: 4px solid #1e3a8a;
+  border-radius: 4px;
+}
+
+.manual h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #1e3a8a;
+}
+
+/* Linha do título + edição */
+.linha-topo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 5px;
+}
+
+.icone-editar {
+  width: 22px;
+  height: 22px;
+  cursor: pointer;
+}
+
+.manual p:first-of-type {
+  font-weight: bold;
+  margin: 6px 0;
+}
+
+.linha-datas {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin: 8px 0;
+}
+
+/* Botões */
+.btn, .btn-voltar, .btn-editar {
+  display: inline-block;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.btn {
+  background: #1e3a8a;
+  color: white;
+}
+
+.btn-voltar {
+  background: #ccc;
+  color: #000;
+}
+
+.btn-editar {
+  background: #28a745;
+  color: white;
+  margin-right: 10px;
+}
+
+/* Formulários */
+form {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+input, textarea, select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background: #1e3a8a;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+/* Campos lado a lado */
+.linha-dupla {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.campo {
+  flex: 1;
+  min-width: 220px;
+}
+
+/* Manual detalhado */
+.manual-detalhe {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  border-left: 4px solid #1e3a8a;
+  margin-top: 20px;
+}
+
+.manual-detalhe h2 {
+  margin-bottom: 10px;
+  color: #1e3a8a;
+}
